@@ -1,5 +1,6 @@
 package ro.itschool.mvnbase;
 
+
 import com.github.lalyos.jfiglet.FigletFont;
 
 import java.io.IOException;
@@ -11,7 +12,7 @@ public class HelloMaven {
     }
 
     public String sayHello() throws IOException {
-        return FigletFont.convertOneLine("Hello Maven");
+        return FigletFont.convertOneLine("Stefan");
     }
 
 }
